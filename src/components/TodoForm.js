@@ -35,7 +35,7 @@ const handleChange = e =>{
                 onChange={handleChange}
                 ref ={inputRef}
                 ></input>
-            <button className='todo-button'>Update todo</button>
+            <button className='todo-button'>Update task</button>
             </>
             ):(<>
             <input 
@@ -49,7 +49,7 @@ const handleChange = e =>{
                 >
                 
             </input>
-            <button className='todo-button'>Add todo</button>
+            <button className='todo-button'>Add a task</button>
             </>
             )}
         </form>
