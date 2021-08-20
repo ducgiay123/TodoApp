@@ -40,7 +40,7 @@ const handleChange = e =>{
             ):(<>
             <input 
                 type ="text" 
-                placeholder ='Add a todo' 
+                placeholder ='Add a task' 
                 value={input}
                 name='text' 
                 className='todo-input'
